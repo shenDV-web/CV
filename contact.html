@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h3>My Contact Details</h3>
+    <table>
+      <tr>
+        <td><strong>Shen DV</strong></td>
+      </tr>
+      <tr>
+        <td>Tampa, Florida</td>
+      </tr>
+      <tr>
+        <td>Phone: 8138138138</td>
+      </tr>
+    </table>
+    <!-- <h4>email: <a href="mailto:email@gmail.com">Send</a></h4> -->
+    <hr>
+    <form class="" action="mailto:email@gmail.com" method="post" enctype="text/plain">
+      <label for="Your Name">Your Name:</label>
+      <input type="text" name="yourName" value=""> <br>
+
+      <!-- <input type="color">
+      <label for="">Password:</label>
+      <input type="password" > <br>
+      <label for="">Submission Date:</label>
+      <input type="datetime-local" ><br>
+       -->
+      <label for="">Your email:</label>
+      <input type="email" name="yourEmail"> <br>
+
+      <label for="">Your contact number:</label>
+      <input type="number" name="yourContact#" value=""><br>
+
+      <label for="">Preference to contact: email or phone?</label>
+      <div>
+        <input type="radio" id="email" name="contactPreference" value="email">
+        <label for="eamil">email</label>
+      </div>
+      <div>
+        <input type="radio" id="phone" name="contactPreference" value="phone">
+        <label for="phone">Phone#</label>
+      </div>
+
+      <label for="">Do you want to sign up to the email list?</label>
+      <input type="checkbox" name="signUp"> <br>
+      <!--
+      <label for="">Attachment:</label>
+      <input type="file" name="" value=""> <br>
+
+      <label>Your URL any?</label>
+      <input type="url" name="" value=""><br>
+
+      <label for="">How do you rate this site?</label>
+      <div>
+        <input type="range" name="rating" value="rating" min="0" max="5">
+        <label for="rating">Rating</label>
+      </div>
+    -->
+      <div class="controls">
+        <label for="comments">Comments if any:</label>
+        <textarea name="yourComments" rows="5" cols="50"></textarea>
+      </div>
+      <input type="reset" name="" value="Reset">
+      <input type="submit">
+    </form>
+
+    <a href="index.html">Back To Home</a>
+  </body>
+</html>
